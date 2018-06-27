@@ -7,8 +7,11 @@ function lastImageSelector(){
   return $('img:last');
 }
 function ninjaBabySelector(){
-  return('#baby-ninja');
+  return $('#baby-ninja');
 }
 function divSelector(){
-  return()
+  return $("div.pics");
+}
+function firstListItem(){
+  return $("ul il.pic-list:first")
 }
